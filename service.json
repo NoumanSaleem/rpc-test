@@ -1,0 +1,20 @@
+{
+  "Greeter": {
+    "sayHello": {
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" }
+        },
+        "required": ["name"]
+      },
+      "returns": {
+        "success": {
+          "schema": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

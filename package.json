@@ -1,0 +1,17 @@
+{
+  "name": "jrpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nouman Saleem",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "is-my-json-valid": "^2.10.1",
+    "lodash": "^3.8.0",
+    "request": "^2.55.0"
+  }
+}
