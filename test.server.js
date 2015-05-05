@@ -8,6 +8,7 @@ var tcpReceiver = require('./lib/tcpReceiver');
 var rpcServer = require('./lib/rpcServer')(spec);
 
 rpcServer.register('Greeter', require('./greeter'));
+rpcServer.register('Calc', require('./calc'));
 
 net
   .createServer(tcpReceiver(rpcServer.handle))

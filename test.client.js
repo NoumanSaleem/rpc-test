@@ -15,3 +15,12 @@ rpcClient.Greeter.sayHello({ name: 'Nouman' }, function () {
 rpcClient.Greeter.sayHello({ a: 123 }, function () {
   console.log(arguments);
 });
+
+// Calc methods has dynamic arguments length
+rpcClient.Calc.add(1, 2, 3, function () {
+  console.log(arguments);
+});
+
+rpcClient.Calc.multiply(20, 1, function () {
+  console.log(arguments);
+});
